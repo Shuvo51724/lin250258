@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "lib": ["ES2023"],
+    "jsx": "preserve",
+    "types": ["node"]
+  },
+  "include": ["server", "shared", "vite.config.ts"],
+  "exclude": ["client", "node_modules"]
+}
