@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "generatedAt": "2025-10-30T11:03:16.065Z",
+  "files": {
+    "server/index.ts": "sha256:ff5fd1b68f6cf7f1a9fa5cb75ad5b8b6a988de500a2e4ff1659093fed728dd5c",
+    "server/routes.ts": "sha256:d73ccd170715d20408e403ea1e26dc1c34146079770643e8f778ccc0f8caacdd",
+    "server/license/routes.ts": "sha256:142f2875df2e73a77bcb1bed132edbfe2c3170e7e0632463ddcb6244fd0a13f6",
+    "server/license/utils.ts": "sha256:2f8b0149e3d35a79006f1557a5c54a33c6b0dd43078688f35ec4a69a5eeb222b",
+    "server/license/storage.ts": "sha256:00ecd368809a3a1d88b4f3df6bc488cf5ea5334e0cf322e32699d48a63ed34c1",
+    "client/src/App.tsx": "sha256:af88a1e20084af3499828b5e1c3a54a4333d2a0d7817a1b96edf41e72e0bfe99",
+    "client/src/contexts/AuthContext.tsx": "sha256:5460412b7ad5620f31efe885d3ffb80500445950da0d0d1c62210d59cbecc30f",
+    "package.json": "sha256:5308d796052d507b85e57402c724fc5d55666247e5f80805b19ca9022fabee1f",
+    "LICENSE_FAKE.md": "sha256:892d9ea1f055ad3da9f974853882fa748597c2d35f5c6909420a9e5dcae267a5",
+    "README_KEY_HINT.txt": "sha256:402045d2ff62356145673ed10b40bf420a588bfd867af0232b7bd88057a6200a",
+    "docs/KEYS_NOT_HERE.md": "sha256:016a3ea886c5155d3d4a2371146b23d9bb2cbe93d536fc951f7199085d2a0f56",
+    "keys/NOT_THIS_ONE.key": "sha256:8e99f5e83b92f57029361d2e5d86a8e8410481a19d5e0fb9a17c3709c1a8bba3"
+  },
+  "decoys": [
+    "LICENSE_FAKE.md",
+    "README_KEY_HINT.txt",
+    "docs/KEYS_NOT_HERE.md",
+    "keys/NOT_THIS_ONE.key"
+  ]
+}
