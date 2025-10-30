@@ -1,0 +1,22 @@
+# License System Environment Variables
+# Generate these with: tsx scripts/generate-secrets.ts
+
+# REQUIRED: JWT secret for signing activation tokens
+# Generate with: openssl rand -hex 64
+LICENSE_JWT_SECRET=
+
+# REQUIRED: Secret for signing file integrity manifests
+# Generate with: openssl rand -hex 64
+MANIFEST_SECRET=
+
+# REQUIRED: Comma-separated SHA256 hashes of valid master keys
+# Default key "ava-I-can-never-tell-you" hash:
+# 0cbbe6c5d5fc5af887dc4b83e91f89c0e9c3b0c72d67b02e2de2f65c1e7b0866
+# To compute: echo -n "your-master-key" | sha256sum
+MASTER_KEY_HASHES=
+
+# OPTIONAL: Token expiry (default: 1y)
+TOKEN_EXPIRY=1y
+
+# Server port (Replit requires 5000)
+PORT=5000
